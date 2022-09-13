@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;    
+}
+
+
+#main-container {
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 500px;
+    margin: 100px auto;   
+    border-radius: 20px;
+}
+
+
+img {
+    width: 280px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.main-content {
+    margin: 5px;    
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+h2 {             
+    color: hsl(220, 15%, 55%);
+    font-size: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+
+p {
+    margin: 15px;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;    
+}
