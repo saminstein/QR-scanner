@@ -16,8 +16,8 @@ body {
 }
 
 
-#main-container {
-    position: absolute;
+#container {
+
     background-color: hsl(0, 0%, 100%);
     width: 300px;
     height: 500px;
@@ -33,7 +33,7 @@ img {
 }
 
 
-.main-content {
+.content {
     margin: 5px;    
     align-items: center;
     text-align: center;
